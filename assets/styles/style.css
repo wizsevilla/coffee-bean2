@@ -209,8 +209,50 @@ p{
     object-fit: cover;
 }
 
+/* (5) Discount area */
+.discount{
+    width: 85%;
+    margin: 4em auto;
+    background-image: url('../images/discount-img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    position: relative;
+}
 
+.discount-text{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
+.discount-text span{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-style: italic;
+    text-shadow: 3px 3px 6px #312a26;
+}
+
+.discount-text h2{
+    font-size:2em;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px #312a26;
+}
+
+.discount-text a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: rgba(255,255,255, .5);
+    color: #312a26;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top: 1em;
+}
 
 
 

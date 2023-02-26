@@ -254,7 +254,24 @@ p{
     margin-top: 1em;
 }
 
+/* (7) Ads area */
+.ads-item3{
+    margin-right: 3%;
+    background-image: url('../images/ads-img3.jpg');
+}
 
+.ads-item4{
+    background-image: url('../images/ads-img4.jpg');
+}
+
+.ads-item5{
+    margin-right: 3%;
+    background-image: url('../images/ads-img5.jpg');
+}
+
+.ads-item6{
+    background-image: url('../images/ads-img6.jpg');
+}
 
 
 

@@ -158,6 +158,63 @@ p{
     text-shadow: 3px 3px 5px #312a26;
 }
 
+/* (4) Merchandise area */
+.merch{
+    width: 85%;
+    margin: 4em auto;
+}
+
+.section-header{
+    text-align: center;
+}
+
+.section-header span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #c7a17a;
+}
+
+.section-header h2{
+    text-transform: uppercase;
+    color: #312a26;
+}
+
+.section-header hr{
+    background-color: #c7a17a;
+    height: 2px;
+    width: 25%;
+    margin: auto;
+}
+.merch-gallery{
+    margin-top: 2em;
+    overflow: auto;
+}
+
+.merch-items{
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.merch-items:nth-child(4),
+.merch-items:nth-child(8){
+    margin-right: 0;
+}
+
+.merch-items img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
 
 
 
